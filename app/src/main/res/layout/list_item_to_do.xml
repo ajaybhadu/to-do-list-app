@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_text_to_do_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageButton_delete_list_item"
+        android:padding="@dimen/spacing_5dp"
+        android:text="textView_text_to_do_list_item"
+        android:textSize="@dimen/textSize_18sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton_delete_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/DeleteTheNote"
+        android:padding="@dimen/spacing_5dp"
+        android:src="@android:drawable/ic_menu_delete" />
+
+    <TextView
+        android:id="@+id/textView_date_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_text_to_do_list_item"
+        android:padding="@dimen/spacing_5dp"
+        android:text="textView_date_list_item" />
+    <!--android:textSize="@dimen/textSize_18sp"-->
+
+    <TextView
+        android:id="@+id/textView_time_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_text_to_do_list_item"
+        android:layout_toEndOf="@+id/textView_date_list_item"
+        android:layout_toRightOf="@+id/textView_date_list_item"
+        android:padding="@dimen/spacing_5dp"
+        android:text="textView_time_list_item" />
+
+    <TextView
+        android:id="@+id/textView_location_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_date_list_item"
+        android:padding="@dimen/spacing_5dp"
+        android:text="textView_location_list_item" />
+</RelativeLayout>

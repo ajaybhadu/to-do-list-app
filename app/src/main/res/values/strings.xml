@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="YourToDoText">Your to-do text&#8230;</string>
+    <string name="Date">Date</string>
+    <string name="Time">Time</string>
+    <string name="Save">Save</string>
+    <string name="AddANewToDoItem">Add a new to-do item</string>
+    <string name="Location">Location</string>
+    <string name="Saved">Saved</string>
+    <string name="PleaseEnterYourToDoText">Please enter your to-do text.</string>
+    <string name="PleaseSelectToDoTime">Please select to-do time.</string>
+    <string name="PleaseSelectToDoDate">Please select to-do date.</string>
+    <string name="DeleteTheNote">Delete the note?</string>
+    <string name="Delete">Delete</string>
+    <string name="UnableToSave">Unable to save!</string>
+</resources>
